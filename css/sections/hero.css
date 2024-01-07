@@ -1,0 +1,100 @@
+.hero-left h1 {
+  font-family: 'Gravitas One', serif;
+  font-size: 60px;
+}
+
+.hero-left p {
+  font-size: 20px;
+}
+
+.hero-left button {
+  font-size: 20px;
+  padding: 14px 65px;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-top: 65px;
+  position: relative;
+}
+
+.hero-left button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 267px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid #1D1D1D;
+  transform: skewY(-11deg);
+  transform-origin: bottom;
+}
+
+.hero-left button:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 267px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #1D1D1D;
+  transform: skewY(-6.9deg);
+  transform-origin: bottom;
+}
+
+.pizza-carusel-hero-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carusel-dish-box h3 {
+  text-align: center;
+}
+
+.hero-carusel-prices {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-carusel-price-small {
+  display: flex;
+}
+
+.hero-carusel-price-big {
+  display: flex;
+}
+
+.pizza-carusel-hero-box button {
+  position: relative;
+  background: transparent;
+  border: 0;
+  width: 98px;
+  height: 33px;
+}
+
+.pizza-carusel-hero-box button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 98px;
+  height: 33px;
+  border: 2px solid #1D1D1D;
+  background: #D9D9D9;
+  transform: skewY(-5.9deg);
+  transform-origin: bottom;
+  z-index: -1;
+}
+
+.hero-left {
+  border-right: 1px solid #1D1D1D;
+  height: 100%;
+}
+
+.header-right-number-box {
+  border-bottom: 1px solid #1D1D1D;
+}
