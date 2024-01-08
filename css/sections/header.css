@@ -3,17 +3,21 @@
   display: flex;
   justify-content: space-between;
   width: 1300px;
-  height: 100vh;
 }
 
 .left-header-hero {
   max-width: 690px;
   flex: 1;
+  border-bottom: 1px solid #1D1D1D;
+  border-right: 1px solid #1D1D1D;
 }
 
 .right-header-hero {
   max-width: 610px;
   flex: 1;
+  position: relative;
+  border-bottom: 1px solid #1D1D1D;
+
 }
 
 header {

@@ -1,3 +1,7 @@
+.hero-left {
+  margin-top: 107px;
+}
+
 .hero-left h1 {
   font-family: 'Gravitas One', serif;
   font-size: 60px;
@@ -5,6 +9,7 @@
 
 .hero-left p {
   font-size: 20px;
+  margin-top: 49px;
 }
 
 .hero-left button {
@@ -44,27 +49,51 @@
 }
 
 .pizza-carusel-hero-box {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 53px;
+}
+
+
+.carusel-dish-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 33px;
 }
 
 .carusel-dish-box h3 {
   text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .hero-carusel-prices {
+  background: #FFCE9E;
+  border-radius: 40px;
+}
+
+.price-border {
   display: flex;
+  border-radius: 40px;
   justify-content: center;
+  border: 1px solid #1D1D1D;
+  margin: 2px 4px;
 }
 
 .hero-carusel-price-small {
   display: flex;
+  align-items: center;
+  padding: 4px 18px 4px 30px;
+  border-right: 1px solid #1D1D1D;
 }
 
 .hero-carusel-price-big {
   display: flex;
+  align-items: center;
+  padding: 4px 17px 4px 30px;
 }
 
 .pizza-carusel-hero-box button {
@@ -90,11 +119,45 @@
   z-index: -1;
 }
 
-.hero-left {
-  border-right: 1px solid #1D1D1D;
-  height: 100%;
+.pizza-carusel-hero-box button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 98px;
+  height: 33px;
+  border: 1px solid #1D1D1D;
+  transform: skewY(5.9deg);
+  transform-origin: bottom;
+  z-index: -1;
 }
 
 .header-right-number-box {
   border-bottom: 1px solid #1D1D1D;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Gravitas One', serif;
+  margin-right: 8px;
+}
+
+.hero-carusel-prices p {
+  font-size: 20px;
+}
+
+.socials-box {
+  display: flex;
+  bottom: 0;
+  padding: 58px 0 50px 50px;
+  border-top: 1px solid #1D1D1D;
+}
+
+.social-arrow-img {
+  margin-left: 15px;
+}
+
+.social-icon {
+  margin-left: 15px;
 }
