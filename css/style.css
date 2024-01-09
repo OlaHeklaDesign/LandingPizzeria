@@ -3,6 +3,7 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/menu.css");
+@import url("sections/about.css");
 
 * {
   margin: 0;
@@ -10,4 +11,21 @@
   font-family: 'Arvo', serif;
   font-weight: 400;
   color: #1D1D1D;
+}
+
+body {
+  background: #E0E0E0;
+  background-image: url("./../assets/texture-bg.png");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container-1220px {
+  width: 1220px;
+  margin: 0 auto;
 }

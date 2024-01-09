@@ -1,5 +1,6 @@
 .hero-left {
   margin-top: 107px;
+  padding-left: 70px;
 }
 
 .hero-left h1 {
@@ -53,6 +54,7 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 53px;
+  padding-right: 70px;
 }
 
 
@@ -150,7 +152,7 @@ h5 {
 .socials-box {
   display: flex;
   bottom: 0;
-  padding: 58px 0 50px 50px;
+  padding: 58px 70px 50px 50px;
   border-top: 1px solid #1D1D1D;
 }
 

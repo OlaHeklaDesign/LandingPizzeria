@@ -1,23 +1,23 @@
+
+
 .maxwidth-container-header-hero {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  width: 1300px;
 }
 
 .left-header-hero {
-  max-width: 690px;
+  max-width: 760px;
   flex: 1;
   border-bottom: 1px solid #1D1D1D;
   border-right: 1px solid #1D1D1D;
 }
 
 .right-header-hero {
-  max-width: 610px;
+  max-width: 680px;
   flex: 1;
   position: relative;
   border-bottom: 1px solid #1D1D1D;
-
 }
 
 header {
@@ -25,6 +25,7 @@ header {
   align-items: center;
   border-bottom: 1px solid #1D1D1D;
   height: 94px;
+  padding-left: 70px;
 }
 
 header img {
