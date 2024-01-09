@@ -4,6 +4,9 @@
 @import url("sections/hero.css");
 @import url("sections/menu.css");
 @import url("sections/about.css");
+@import url("sections/highlights.css");
+@import url("sections/contact.css");
+@import url("sections/footer.css");
 
 * {
   margin: 0;

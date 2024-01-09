@@ -1,0 +1,48 @@
+.highlights {
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 136px;
+}
+
+.higlights-title-button-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.highlights-container {
+  display: flex;
+}
+
+.higlights-title-button-box h2 {
+  font-family: 'Gravitas One', serif;
+  font-size: 50px;
+}
+
+.higlight-box {
+  padding: 150px 95px 28px 47px;
+  border-left: 1px solid #1d1d1d;
+  border-right: 1px solid #1d1d1d;
+  border-top: 1px solid #1d1d1d;
+}
+
+.higlight-box:nth-child(2) {
+  background: #1d1d1d;
+}
+
+.higlight-box:nth-child(2) h6,
+.higlight-box:nth-child(2) p {
+  color: #FEFEFE;
+}
+
+.higlight-box h6 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.higlight-box p {
+  font-size: 16px;
+  line-height: 31px;
+  color: #383838;
+}
