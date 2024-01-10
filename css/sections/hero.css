@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+  padding-bottom: 120px;
 }
 
 .hero-left h1 {
@@ -224,7 +225,7 @@ h5 {
 .hero-blur-red {
   position: absolute;
   top: -212px;
-  left: -40px;
+  left: -240px;
   width: 746px;
   height: 756px;
   border-radius: 756px;
@@ -236,7 +237,7 @@ h5 {
 .hero-blur-yellow {
   position: absolute;
   top: 202px;
-  left: 0px;
+  left: -180px;
   width: 399px;
   height: 416px;
   border-radius: 416px;
@@ -244,3 +245,44 @@ h5 {
   filter: blur(180px);
   z-index: -1;
 }
+
+.hero-address {
+  position: relative;
+}
+
+.hero-address img {
+  position: absolute;
+  top: -86px;
+  right: -280px;
+}
+
+.hero-image-1 {
+  position: absolute;
+  bottom: 44px;
+  right: 168px;
+}
+
+.hero-image-2 {
+  position: absolute;
+  bottom: 122px;
+  right: 73px;
+}
+
+.yummy {
+  position: absolute;
+  bottom: 103px;
+  right: 104px;
+}
+
+.love {
+  position: absolute;
+  bottom: 163px;
+  right: 284px;
+}
+
+.like {
+  position: absolute;
+  bottom: 181px;
+  right: 250px;
+}
+

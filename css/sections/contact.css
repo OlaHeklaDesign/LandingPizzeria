@@ -56,3 +56,10 @@
   filter: blur(120px);
   z-index: -1;
 }
+
+.contact-line {
+  transform: rotate(-5.416deg);
+  position: absolute;
+  top: 210px;
+  right: 0;
+}

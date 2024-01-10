@@ -11,6 +11,7 @@
   flex: 1;
   border-bottom: 1px solid #1D1D1D;
   border-right: 1px solid #1D1D1D;
+  position: relative;
 }
 
 .right-header-hero {
