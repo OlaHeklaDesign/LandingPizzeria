@@ -7,6 +7,7 @@
 .higlights-title-button-box {
   display: flex;
   justify-content: space-between;
+  align-items: start;
   margin-bottom: 52px;
 }
 
@@ -45,4 +46,36 @@
   font-size: 16px;
   line-height: 31px;
   color: #383838;
+}
+
+.button-watch {
+  background: #FFCE9E;
+  border-radius: 100px;
+  padding: 5px 7px 5px 7px;
+}
+
+.button-watch p {
+  font-size: 12px;
+  line-height: 17px;
+  margin-left: 13px;
+}
+
+.play-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid #1d1d1d;
+  margin-left: -1px;
+}
+
+.button-watch-border {
+  display: flex;
+  align-items: center;
+  border: 1px solid #1d1d1d;
+  border-radius: 100px;
+  padding-right: 32px;
+  fdggdfgLdgdg
 }

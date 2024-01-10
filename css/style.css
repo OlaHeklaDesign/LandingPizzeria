@@ -14,6 +14,7 @@
   font-family: 'Arvo', serif;
   font-weight: 400;
   color: #1D1D1D;
+  box-sizing: border-box;
 }
 
 body {
