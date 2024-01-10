@@ -20,6 +20,7 @@
   flex-direction: column;
   justify-content: end;
   padding: 0 0 27px 60px;
+  position: relative;
 }
 
 .border-about-container {
@@ -100,4 +101,27 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.blur-about-red {
+  position: absolute;
+  width: 363px;
+  height: 366px;
+  border-radius: 50%;
+  background: #C3463E;
+  filter: blur(135px);
+  top: 70px;
+  right: -293px;
+  z-index: -2;
+}
+
+.blur-about-yellow {
+  position: absolute;
+  right: -253px;
+  top: 304px;
+  width: 230px;
+  height: 191px;
+  background: #FCE621;
+  filter: blur(90px);
+  z-index: -1;
 }

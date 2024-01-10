@@ -64,6 +64,7 @@
   align-items: center;
   margin-top: 20px;
   margin-bottom: 33px;
+  position: relative;
 }
 
 .carusel-dish-box h3 {
@@ -162,4 +163,50 @@ h5 {
 
 .social-icon {
   margin-left: 15px;
+}
+
+.blur-hero-orange {
+  position: absolute;
+  top: 0;
+  left: -44px;
+  width: 332px;
+  height: 312px;
+  border-radius: 50%;
+  background: #ECA157;
+  filter: blur(130px);
+  z-index: -1;
+}
+
+.blur-hero-black {
+  position: absolute;
+  width: 380px;
+  height: 374px;
+  border-radius: 380px;
+  background: #1D1D1D;
+  filter: blur(165px);
+  z-index: -2;
+}
+
+.hero-blur-red {
+  position: absolute;
+  top: -212px;
+  left: -40px;
+  width: 746px;
+  height: 756px;
+  border-radius: 756px;
+  background: #C3463E;
+  filter: blur(225px);
+  z-index: -2;
+}
+
+.hero-blur-yellow {
+  position: absolute;
+  top: 202px;
+  left: 0px;
+  width: 399px;
+  height: 416px;
+  border-radius: 416px;
+  background: #FCE621;
+  filter: blur(180px);
+  z-index: -1;
 }

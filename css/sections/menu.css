@@ -7,6 +7,7 @@
 .menu-left-container {
   padding-right: 182px;
   padding-top: 114px;
+  position: relative;
 }
 
 .menu-left-container h2 {
@@ -110,4 +111,28 @@ padding: 2px 17px 2px 30px;
 
 .price-of-dish-one-size {
   padding: 2px 30px;
+}
+
+.menu-blur-red {
+  position: absolute;
+  top: 500px;
+  left: -129px;
+  width: 405px;
+  height: 343px;
+  border-radius: 435px;
+  background: #C3463E;
+  filter: blur(155px);
+  z-index: -2;
+}
+
+.menu-blur-yellow {
+  position: absolute;
+  top: 696px;
+  left: -155px;
+  width: 338px;
+  height: 253px;
+  border-radius: 338px;
+  background: #FCE621;
+  filter: blur(120px);
+  z-index: -1;
 }
