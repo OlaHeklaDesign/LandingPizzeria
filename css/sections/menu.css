@@ -3,6 +3,7 @@
   max-width: 1300px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: -1px;
 }
 
 .menu-left-container {
@@ -35,6 +36,11 @@
   height: 3px;
   background: #C1271D;
   margin-right: 20px;
+  display: none;
+}
+
+.line-menu.active {
+  display: block;
 }
 
 .menu-right-container {
@@ -44,6 +50,11 @@
 .dish {
   padding: 16px 0 16px 92px;
   display: flex;
+  border-bottom: 1px solid #1D1D1D;
+}
+
+.filter {
+  cursor: pointer;
 }
 
 .dish-text-box {
@@ -136,6 +147,22 @@ padding: 2px 17px 2px 30px;
   background: #FCE621;
   filter: blur(120px);
   z-index: -1;
+}
+
+.pasta {
+  display: none;
+}
+
+.panini {
+  display: none;
+}
+
+.salad {
+  display: none;
+}
+
+.dessert {
+  display: none;
 }
 
 @media only screen and (max-width: 1440px) {
