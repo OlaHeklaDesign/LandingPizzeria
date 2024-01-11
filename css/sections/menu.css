@@ -3,7 +3,6 @@
   max-width: 1300px;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
 }
 
 .menu-left-container {
@@ -137,6 +136,12 @@ padding: 2px 17px 2px 30px;
   background: #FCE621;
   filter: blur(120px);
   z-index: -1;
+}
+
+@media only screen and (max-width: 1440px) {
+  .menu {
+    overflow: hidden;
+  }
 }
 
 @media only screen and (max-width: 1300px) {

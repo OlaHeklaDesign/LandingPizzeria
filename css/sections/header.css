@@ -32,7 +32,7 @@ header {
   padding-left: 70px;
 }
 
-header img {
+.logo {
   padding: 44px 87px 34px 0;
   border-right: 1px solid #1D1D1D;
 }
@@ -41,6 +41,7 @@ header a {
   text-decoration: none;
   padding: 0 44px;
   font-size: 16px;
+  white-space: nowrap;
 }
 
 li {
@@ -56,7 +57,7 @@ li:last-child {
   border: none;
 }
 
-nav {
+.desktop-nav {
   display: flex;
   justify-content: space-around;
   flex: 1;
@@ -86,4 +87,44 @@ nav {
   background: #1D1D1D;
   color: #D9D9D9;
   font-size: 18px;
+}
+
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.mobile-menu {
+  display: none;
+  position: relative;
+  z-index: 5;
+}
+
+.mobile-menu nav {
+  background: #E0E0E0;
+}
+
+.mobile-menu li {
+  border-right: 0;
+}
+
+@media only screen and (max-width: 465px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+  .logo {
+    border-right: 0;
+  }
+
+  header {
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+
 }
