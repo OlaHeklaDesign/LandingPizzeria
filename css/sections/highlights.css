@@ -1,5 +1,5 @@
 .highlights {
-  width: 1080px;
+  max-width: 1080px;
   margin: 0 auto;
   padding-top: 136px;
 }
@@ -28,6 +28,7 @@
   border-left: 1px solid #1d1d1d;
   border-right: 1px solid #1d1d1d;
   border-top: 1px solid #1d1d1d;
+  flex: 1;
 }
 
 .higlight-box:nth-child(2) {
@@ -88,4 +89,59 @@
   position: absolute;
   bottom: -40px;
   right: 92px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .highlights  {
+    padding: 135px 20px 0 20px;
+  }
+
+  .line-highlights {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1058px) {
+  .higlights-title-button-box h2 {
+    font-size: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 970px) {
+  .higlight-box {
+    padding: 100px 20px 14px 14px;
+  }
+}
+
+@media only screen and (max-width: 866px) {
+.higlights-title-button-box h2 {
+  font-size: 28px;
+  }
+} 
+
+@media only screen and (max-width: 880px) {
+  .higlights-title-button-box {
+    flex-direction: column;
+  }
+
+  .button-watch {
+    margin-top: 20px;
+  }
+
+  .higlights-title-button-box h2 {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .higlights-title-button-box h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 658px) {
+  .highlights-container {
+    flex-direction: column;
+  }
 }

@@ -31,6 +31,12 @@ body {
 }
 
 .container-1220px {
-  width: 1220px;
+  max-width: 1220px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1440px) {
+  .main-container {
+    overflow: hidden;
+  }
 }

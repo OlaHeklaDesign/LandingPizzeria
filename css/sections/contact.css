@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   justify-content: space-between;
-  width: 1080px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -11,6 +11,13 @@
 
 .contact-right-box {
   margin-right: -180px;
+  width: 100%;
+  max-width: 738px;
+  height: auto;
+}
+
+.contact-right-box img {
+  width: 100%;
 }
 
 .contact-left-box {
@@ -62,4 +69,36 @@
   position: absolute;
   top: 210px;
   right: 0;
+}
+
+@media only screen and (max-width: 1080px) {
+  .contact-left-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact-line {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 1058px) {
+  .contact-left-box h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 908px) {
+  .contact-left-box h2 {
+    font-size: 40px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-left-box {
+    padding: 80px 20px 70px 20px;
+    border-bottom: 1px solid #1D1D1D;
+  }
 }

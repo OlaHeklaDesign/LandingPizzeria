@@ -1,7 +1,9 @@
 .menu {
   display: flex;
-  width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .menu-left-container {
@@ -135,4 +137,81 @@ padding: 2px 17px 2px 30px;
   background: #FCE621;
   filter: blur(120px);
   z-index: -1;
+}
+
+@media only screen and (max-width: 1300px) {
+  .menu {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 1228px) {
+  .menu-left-container {
+    padding-right: 90px;
+  }
+
+  .dish {
+    padding: 16px 0 16px 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .menu-left-container {
+    padding-right: 50px;
+  }
+
+  .dish {
+    padding: 16px 0 16px 20px;
+  }
+
+  .dish-text-box {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .dish img:first-child {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+  }
+
+  .dish-description {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-left-container{
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #1D1D1D;
+  }
+
+  .menu {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .menu-blur-red {
+    display: none;
+  }
+
+  .menu-blur-yellow {
+    display: none;
+  }
+
+  .dish {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .dish {
+    flex-direction: column;
+  }
+
+  .dish img:first-child {
+    max-width: 280px;
+  }
 }

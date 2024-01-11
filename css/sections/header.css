@@ -19,6 +19,9 @@
   flex: 1;
   position: relative;
   border-bottom: 1px solid #1D1D1D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -44,6 +47,9 @@ li {
   list-style: none;
   padding: 16px 0;
   border-right: 1px solid rgba(29, 29, 29, 0.5);
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 li:last-child {
@@ -52,11 +58,26 @@ li:last-child {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex: 1;
 }
 
 .header-number {
+  height: 94px;
+  width: 246px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1D1D1D;
+  color: #D9D9D9;
+  font-size: 18px;
+}
+
+.header-right-number-box-mobile {
+  display: none;
+}
+
+.header-number-mobile {
   height: 94px;
   width: 246px;
   display: flex;
