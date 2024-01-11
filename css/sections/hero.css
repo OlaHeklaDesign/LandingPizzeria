@@ -91,6 +91,7 @@ line-height: 61px;
   justify-content: space-between;
   padding-left: 53px;
   padding-right: 70px;
+  position: relative;
 }
 
 
@@ -101,7 +102,6 @@ line-height: 61px;
   flex-shrink: 1;
   margin-top: 20px;
   margin-bottom: 33px;
-  position: relative;
 }
 
 .carusel-dish-box h3 {
@@ -204,8 +204,8 @@ h5 {
 
 .blur-hero-orange {
   position: absolute;
-  top: 0;
-  left: -44px;
+  top: 20px;
+  left: 150px;
   width: 332px;
   height: 312px;
   border-radius: 50%;
@@ -216,6 +216,8 @@ h5 {
 
 .blur-hero-black {
   position: absolute;
+  top: 0;
+  left: 147px;
   width: 380px;
   height: 374px;
   border-radius: 380px;
@@ -292,6 +294,26 @@ h5 {
   position: absolute;
   bottom: 137px;
   right: 177px;
+}
+
+.slider {
+  overflow: hidden;
+  width: 332px;
+}
+
+.slides {
+  display: flex;
+  overflow: hidden;
+  width: 1660px;
+  }
+  
+.slide {
+    min-width: 332px;
+}
+
+
+.prevBtn, .nextBtn {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1300px) {

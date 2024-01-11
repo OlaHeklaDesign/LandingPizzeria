@@ -1,3 +1,7 @@
+.menu-cont {
+  max-width: 1440px;
+}
+
 .menu {
   display: flex;
   max-width: 1300px;
@@ -166,7 +170,7 @@ padding: 2px 17px 2px 30px;
 }
 
 @media only screen and (max-width: 1440px) {
-  .menu {
+  .menu-cont{
     overflow: hidden;
   }
 }
