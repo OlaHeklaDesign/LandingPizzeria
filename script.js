@@ -83,4 +83,14 @@ function updateSliderAbout() {
 
 }
 
+const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+const mobileMenu = document.querySelector('.mobile-nav');
+
+mobileMenuIcon.addEventListener('click', () => {
+  if(mobileMenu.style.display === 'block') {
+    mobileMenu.style.display = 'none';
+  } else {
+    mobileMenu.style.display = 'block';
+  }
+})
 
